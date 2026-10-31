@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ASO Skill provides a compact, typed HTTP API for current App Store search results, autocomplete suggestions, keyword difficulty, popularity, and app metadata. Operated by Hesselbom Tech AB in Sweden, the service offers predictable JSON, explicit caching, credit‑based usage, and a public OpenAPI contract for integration with AI agents and scripts.
+ASO Skill, operated by Hesselbom Tech AB, provides a developer API delivering real-time App Store keyword search, autocomplete suggestions, difficulty scores, popularity metrics, and detailed app metadata. The service uses a credit‑based metering model, offering prepaid credit packs and free promotional credits for new accounts. It supports multiple integration methods including a skill for AI agents, a hosted Model Context Protocol (MCP) endpoint, and a CLI tool. Documentation, OpenAPI spec, pricing, and terms are publicly available.
 
-**Areas:** Company · ASO · AppStore · API · Data
+**Areas:** Company · API · AppStore · ASO · SaaS
 
 ## asoskill-com on APIs.io
 
@@ -90,17 +90,6 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Which operations an agent can call, which act, and which need a human in the loop.
 
 - [Asoskill Com Agentic Access](https://apis.io/agentic-access/asoskill-com/asoskill-com-agentic-access/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [ApiDiscoveryResponse](https://apis.io/schemas/asoskill-com/asoskill-com-api-discovery-response/)
-- [AutocompleteResponse](https://apis.io/schemas/asoskill-com/asoskill-com-autocomplete-response/)
-- [DeviceAuthorizationResponse](https://apis.io/schemas/asoskill-com/asoskill-com-device-authorization-response/)
-- [DeviceTokenResponse](https://apis.io/schemas/asoskill-com/asoskill-com-device-token-response/)
-- [PopularityResponse](https://apis.io/schemas/asoskill-com/asoskill-com-popularity-response/)
-- [SearchResponse](https://apis.io/schemas/asoskill-com/asoskill-com-search-response/)
 
 #### JSON-LD (1)
 
@@ -133,32 +122,40 @@ Published plans, tiers and prices.
 
 - [Asoskill Com Plans Pricing](https://apis.io/plans/asoskill-com/asoskill-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Asoskill Com Rate Limits](https://apis.io/rate-limits/asoskill-com/asoskill-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://asoskill.com/)
+- [Website](https://www.asoskill.com/)
+- [Documentation](https://www.asoskill.com/developers)
 - [Getting started](https://www.asoskill.com/skill)
 - [API reference](https://www.asoskill.com/openapi.yaml)
 - [Pricing](https://www.asoskill.com/pricing)
 - [Support](https://www.asoskill.com/support)
 - [Terms of service](https://www.asoskill.com/terms)
 - [Privacy policy](https://www.asoskill.com/privacy)
+- [Status](https://api.asoskill.com/health)
 
 ## API Evangelist rating
 
-**Kin Score 59.8** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 65.7** — strong · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
-| Contract quality | 63.5 |
+| Contract quality | 57.4 |
 | Contract governance | 79.1 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 51.7 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 66.0 |
 | Access clarity | 73.2 |
 
-**Agent readiness 51.3** — agent-ready (gated down from agent-native)
+**Agent readiness 54.5** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -167,7 +164,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
-| Idempotency | — |
+| Idempotency | documented (partial credit) |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | verified |
